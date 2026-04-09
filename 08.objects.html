@@ -15,7 +15,29 @@
       price: 1000
     };
     console.log(product);
+    const product2 = {
+      name: 'shirt',
+      rating: {
+        frist: 10,
+        second: 20
+      },
+      fun: function function1() {
+        console.log("hi lowde")
+      }
+    };
+    product2.fun()
+    console.log(product2);
+    console.log(product2.name);
+    console.log(product2['name']);
+    const stin = JSON.stringify(product2);
+    console.log(stin);
+    console.log(JSON.parse(stin));
+    console.log('hello'.length)
+    console.log('hello'.toUpperCase())
 
+    const object1={
+      massege:'hello'
+    }
   </script>
 </body>
 
