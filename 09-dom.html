@@ -9,15 +9,21 @@
 
 <body>
   <button>hello</button>
+  <button class="js">Rajesh</button>
   <script>
+    console.log(document.querySelector('button').innerHTML);
+    document.querySelector('button').innerHTML = 'Changed'
+    console.log(document.querySelector('.js').innerHTML);
+    document.querySelector('.js').innerHTML = 'Changed'
+    /*
     console.log(document.title);
     document.title = 'Changed';
-    console.log(document.body)
-    console.log(document.body.innerHTML)
-    document.body.innerHTML = 'LOWDE'
-    /*
+    console.log(document.body);
+    console.log(document.body.innerHTML);
+    document.body.innerHTML = '<button>LOWDE</button>';
     document.body.innerHTML = 'hello';
-    document.title = 'good job'*/
+    document.title = 'good job'
+    */
 
   </script>
 </body>
