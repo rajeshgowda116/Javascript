@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <p id="msg"></p>
+</body>
+<script>
+  function login() {
+    let username = "admin";
+    let password = "1234";
+
+    if (username === "admin" && password === "1234") {
+      document.getElementById("msg").innerText = "Welcome back!";
+    } else {
+      document.getElementById("msg").innerText = "Please login";
+    }
+  }
+
+  login();
+</script>
+
+</html>
