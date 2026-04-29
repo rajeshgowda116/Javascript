@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
+<html>
 <body>
 
-</body>
+<p id="msg"></p>
+
 <script>
-  console.log('hello');
-  console.log('i made changes');
-  console.log('2nd made changes');
-  console.log('3rd made changes');
+let isLoggedIn = true;
+
+if (isLoggedIn) {
+    document.getElementById("msg").innerText = "Welcome back!";
+} else {
+    document.getElementById("msg").innerText = "Please login";
+}
 </script>
 
+</body>
 </html>
